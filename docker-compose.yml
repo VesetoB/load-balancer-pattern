@@ -1,0 +1,7 @@
+services:
+  loadbalancer-demo:
+    build:
+      context: .
+      dockerfile: Dockerfile.demo
+    ports:
+      - "8080:80"
